@@ -1,0 +1,13 @@
+{
+    "name": "alexiulkin/yandex-oauth-provider",
+    "description": "Yandex provider for league/oauth2-client",
+    "require": {
+        "php": "^7.3",
+        "league/oauth2-client": "^2.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "AI\\OAuth2\\Client\\": "src/"
+        }
+    }
+}
